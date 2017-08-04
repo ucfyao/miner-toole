@@ -1,0 +1,1 @@
+ethdcrminer64.exe -epool huabei2-pool.ethfans.org:3333 -ewal 0x4ad9f5762b339549e6661cf52294df26c6b4ee09 -epsw x -eworker A1 -dpool "http://siamining.com:9980/miner/header?address=807f77dfd2fd2f3285f090ff1be7d5ca2916927c55575aeb0487c9220ec55c07f99deba6863a&worker=A1" -dcoin sia 

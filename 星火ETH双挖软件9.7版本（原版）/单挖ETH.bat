@@ -1,0 +1,1 @@
+ethdcrminer64.exe -epool huabei-pool.ethfans.org:3333 -ewal 0xab7b7C65f2c3F89a7e2642C0eD27DB45Fb289296 -epsw x -eworker A1 -mode 1

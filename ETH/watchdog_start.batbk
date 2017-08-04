@@ -1,0 +1,3 @@
+echo start %~dp0ethstart.bat
+echo tasklist /nh | find /i "wscript"
+echo if ERRORLEVEL 1 (start %~dp0watchdog.vbs) else (start exit)

@@ -1,0 +1,167 @@
+07:40:23:702	1fac	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+07:40:23:702	1fac	
+07:40:23:702	1fac	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+07:40:23:702	1fac	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+07:40:23:702	1fac	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+07:40:23:702	1fac	
+07:40:23:921	1fac	ETH: 5 pools are specified
+07:40:23:921	1fac	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+07:40:24:686	1fac	OpenCL platform: NVIDIA CUDA
+07:40:24:686	1fac	OpenCL platform: Intel(R) OpenCL
+07:40:24:686	1fac	AMD OpenCL platform not found 
+07:40:26:624	1fac	CUDA initializing...
+
+07:40:26:624	1fac	NVIDIA Cards available: 8 
+07:40:26:640	1fac	CUDA Driver Version/Runtime Version: 8.0/8.0
+07:40:26:655	1fac	GPU #0: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:671	1fac	GPU #1: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:687	1fac	GPU #2: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:702	1fac	GPU #3: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:718	1fac	GPU #4: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:733	1fac	GPU #5: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:749	1fac	GPU #6: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:749	1fac	GPU #7: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:40:26:765	1fac	Total cards: 8 
+07:40:34:031	1fac	No AMD cards in the list, ADL library will not be used.
+07:40:34:047	1fac	NVML version: 8.382.53
+07:40:36:375	1c88	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+07:40:36:375	1c88	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+07:40:36:375	1c88	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+07:40:36:469	1fac	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+07:40:36:469	1fac	ETH: eth-proxy stratum mode
+07:40:36:469	1fac	Watchdog enabled
+07:40:36:469	1fac	Remote management (READ-ONLY MODE) is enabled on port 3333
+07:40:36:469	1fac	
+07:40:41:094	1c88	checkread timeout
+07:40:45:798	1c88	checkread timeout
+07:40:50:502	1c88	checkread timeout
+07:40:55:205	1c88	checkread timeout
+07:40:59:924	1c88	checkread timeout
+07:41:04:644	1c88	checkread timeout
+07:41:09:332	1fac	GPU0 t=32C fan=40%, GPU1 t=31C fan=39%, GPU2 t=30C fan=39%, GPU3 t=30C fan=38%, GPU4 t=30C fan=38%, GPU5 t=32C fan=39%, GPU6 t=27C fan=38%, GPU7 t=34C fan=39%
+07:41:09:347	1c88	checkread timeout
+07:41:09:347	1fac	em hbt: 32984, fm hbt: 47, 
+07:41:09:347	1fac	watchdog - thread 0 (gpu0), hb time 94
+07:41:09:347	1fac	watchdog - thread 1 (gpu0), hb time 94
+07:41:09:347	1fac	watchdog - thread 2 (gpu1), hb time 94
+07:41:09:347	1fac	watchdog - thread 3 (gpu1), hb time 94
+07:41:09:347	1fac	watchdog - thread 4 (gpu2), hb time 94
+07:41:09:347	1fac	watchdog - thread 5 (gpu2), hb time 109
+07:41:09:347	1fac	watchdog - thread 6 (gpu3), hb time 94
+07:41:09:347	1fac	watchdog - thread 7 (gpu3), hb time 94
+07:41:09:347	1fac	watchdog - thread 8 (gpu4), hb time 94
+07:41:09:347	1fac	watchdog - thread 9 (gpu4), hb time 94
+07:41:09:347	1fac	watchdog - thread 10 (gpu5), hb time 94
+07:41:09:347	1fac	watchdog - thread 11 (gpu5), hb time 94
+07:41:09:347	1fac	watchdog - thread 12 (gpu6), hb time 94
+07:41:09:347	1fac	watchdog - thread 13 (gpu6), hb time 94
+07:41:09:347	1fac	watchdog - thread 14 (gpu7), hb time 109
+07:41:09:347	1fac	watchdog - thread 15 (gpu7), hb time 94
+07:41:14:098	1c88	checkread timeout
+07:41:18:802	1c88	checkread timeout
+07:41:23:505	1c88	checkread timeout
+07:41:23:505	1c88	ETH: Job timeout, disconnect, retry in 20 sec...
+07:41:42:210	1fac	GPU0 t=31C fan=40%, GPU1 t=30C fan=39%, GPU2 t=30C fan=39%, GPU3 t=30C fan=38%, GPU4 t=29C fan=38%, GPU5 t=31C fan=39%, GPU6 t=27C fan=38%, GPU7 t=35C fan=40%
+07:41:42:210	1fac	em hbt: 65843, fm hbt: 93, 
+07:41:42:210	1fac	watchdog - thread 0 (gpu0), hb time 62
+07:41:42:210	1fac	watchdog - thread 1 (gpu0), hb time 62
+07:41:42:210	1fac	watchdog - thread 2 (gpu1), hb time 62
+07:41:42:210	1fac	watchdog - thread 3 (gpu1), hb time 62
+07:41:42:210	1fac	watchdog - thread 4 (gpu2), hb time 62
+07:41:42:210	1fac	watchdog - thread 5 (gpu2), hb time 78
+07:41:42:210	1fac	watchdog - thread 6 (gpu3), hb time 62
+07:41:42:210	1fac	watchdog - thread 7 (gpu3), hb time 62
+07:41:42:210	1fac	watchdog - thread 8 (gpu4), hb time 62
+07:41:42:226	1fac	watchdog - thread 9 (gpu4), hb time 78
+07:41:42:226	1fac	watchdog - thread 10 (gpu5), hb time 78
+07:41:42:226	1fac	watchdog - thread 11 (gpu5), hb time 78
+07:41:42:226	1fac	watchdog - thread 12 (gpu6), hb time 78
+07:41:42:226	1fac	watchdog - thread 13 (gpu6), hb time 78
+07:41:42:226	1fac	watchdog - thread 14 (gpu7), hb time 94
+07:41:42:226	1fac	watchdog - thread 15 (gpu7), hb time 78
+07:41:43:523	1c88	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+07:41:43:523	1c88	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+07:41:43:523	1c88	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+07:41:48:289	1c88	checkread timeout
+07:41:53:008	1c88	checkread timeout
+07:41:57:712	1c88	checkread timeout
+07:42:02:447	1c88	checkread timeout
+07:42:07:166	1c88	checkread timeout
+07:42:11:901	1c88	checkread timeout
+07:42:15:073	1fac	GPU0 t=31C fan=39%, GPU1 t=30C fan=39%, GPU2 t=30C fan=39%, GPU3 t=30C fan=38%, GPU4 t=29C fan=38%, GPU5 t=31C fan=39%, GPU6 t=27C fan=38%, GPU7 t=37C fan=41%
+07:42:15:089	1fac	em hbt: 31562, fm hbt: 31, 
+07:42:15:089	1fac	watchdog - thread 0 (gpu0), hb time 62
+07:42:15:089	1fac	watchdog - thread 1 (gpu0), hb time 62
+07:42:15:089	1fac	watchdog - thread 2 (gpu1), hb time 62
+07:42:15:089	1fac	watchdog - thread 3 (gpu1), hb time 62
+07:42:15:089	1fac	watchdog - thread 4 (gpu2), hb time 62
+07:42:15:089	1fac	watchdog - thread 5 (gpu2), hb time 62
+07:42:15:089	1fac	watchdog - thread 6 (gpu3), hb time 62
+07:42:15:089	1fac	watchdog - thread 7 (gpu3), hb time 62
+07:42:15:089	1fac	watchdog - thread 8 (gpu4), hb time 62
+07:42:15:089	1fac	watchdog - thread 9 (gpu4), hb time 62
+07:42:15:089	1fac	watchdog - thread 10 (gpu5), hb time 62
+07:42:15:089	1fac	watchdog - thread 11 (gpu5), hb time 62
+07:42:15:089	1fac	watchdog - thread 12 (gpu6), hb time 62
+07:42:15:089	1fac	watchdog - thread 13 (gpu6), hb time 62
+07:42:15:089	1fac	watchdog - thread 14 (gpu7), hb time 62
+07:42:15:089	1fac	watchdog - thread 15 (gpu7), hb time 62
+07:42:16:620	1c88	checkread timeout
+07:42:21:324	1c88	checkread timeout
+07:42:26:027	1c88	checkread timeout
+07:42:30:762	1c88	checkread timeout
+07:42:30:762	1c88	ETH: Job timeout, disconnect, retry in 20 sec...
+07:42:47:983	1fac	GPU0 t=31C fan=39%, GPU1 t=30C fan=39%, GPU2 t=30C fan=39%, GPU3 t=29C fan=38%, GPU4 t=29C fan=38%, GPU5 t=31C fan=39%, GPU6 t=26C fan=38%, GPU7 t=37C fan=41%
+07:42:47:983	1fac	em hbt: 64469, fm hbt: 78, 
+07:42:47:983	1fac	watchdog - thread 0 (gpu0), hb time 32
+07:42:47:983	1fac	watchdog - thread 1 (gpu0), hb time 32
+07:42:47:983	1fac	watchdog - thread 2 (gpu1), hb time 32
+07:42:47:983	1fac	watchdog - thread 3 (gpu1), hb time 32
+07:42:47:983	1fac	watchdog - thread 4 (gpu2), hb time 32
+07:42:47:983	1fac	watchdog - thread 5 (gpu2), hb time 32
+07:42:47:983	1fac	watchdog - thread 6 (gpu3), hb time 32
+07:42:47:983	1fac	watchdog - thread 7 (gpu3), hb time 32
+07:42:47:983	1fac	watchdog - thread 8 (gpu4), hb time 32
+07:42:47:983	1fac	watchdog - thread 9 (gpu4), hb time 32
+07:42:47:983	1fac	watchdog - thread 10 (gpu5), hb time 32
+07:42:47:983	1fac	watchdog - thread 11 (gpu5), hb time 32
+07:42:47:983	1fac	watchdog - thread 12 (gpu6), hb time 32
+07:42:47:983	1fac	watchdog - thread 13 (gpu6), hb time 32
+07:42:47:983	1fac	watchdog - thread 14 (gpu7), hb time 32
+07:42:47:983	1fac	watchdog - thread 15 (gpu7), hb time 32
+07:42:50:780	1c88	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+07:42:50:780	1c88	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+07:42:50:780	1c88	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+07:42:55:687	1c88	checkread timeout
+07:43:00:437	1c88	checkread timeout
+07:43:04:657	1c88	Socket was closed remotely (by pool)
+07:43:04:953	1c88	ETH: Job timeout, disconnect, retry in 20 sec...
+07:43:20:846	1fac	GPU0 t=31C fan=39%, GPU1 t=29C fan=39%, GPU2 t=29C fan=39%, GPU3 t=29C fan=38%, GPU4 t=29C fan=38%, GPU5 t=30C fan=39%, GPU6 t=26C fan=38%, GPU7 t=37C fan=42%
+07:43:20:893	1fac	em hbt: 30109, fm hbt: 0, 
+07:43:20:893	1fac	watchdog - thread 0 (gpu0), hb time 63
+07:43:20:893	1fac	watchdog - thread 1 (gpu0), hb time 63
+07:43:20:893	1fac	watchdog - thread 2 (gpu1), hb time 63
+07:43:20:893	1fac	watchdog - thread 3 (gpu1), hb time 63
+07:43:20:893	1fac	watchdog - thread 4 (gpu2), hb time 63
+07:43:20:893	1fac	watchdog - thread 5 (gpu2), hb time 63
+07:43:20:893	1fac	watchdog - thread 6 (gpu3), hb time 63
+07:43:20:893	1fac	watchdog - thread 7 (gpu3), hb time 63
+07:43:20:893	1fac	watchdog - thread 8 (gpu4), hb time 63
+07:43:20:893	1fac	watchdog - thread 9 (gpu4), hb time 63
+07:43:20:893	1fac	watchdog - thread 10 (gpu5), hb time 63
+07:43:20:893	1fac	watchdog - thread 11 (gpu5), hb time 63
+07:43:20:893	1fac	watchdog - thread 12 (gpu6), hb time 63
+07:43:20:893	1fac	watchdog - thread 13 (gpu6), hb time 63
+07:43:20:893	1fac	watchdog - thread 14 (gpu7), hb time 63
+07:43:20:893	1fac	watchdog - thread 15 (gpu7), hb time 63

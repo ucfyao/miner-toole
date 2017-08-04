@@ -1,0 +1,209 @@
+07:50:29:704	d8c	args: -epool eth.f2pool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+07:50:29:704	d8c	
+07:50:29:704	d8c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+07:50:29:704	d8c	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+07:50:29:704	d8c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+07:50:29:704	d8c	
+07:50:29:923	d8c	ETH: 5 pools are specified
+07:50:29:923	d8c	Main Ethereum pool is eth.f2pool.com:8008
+07:50:30:532	d8c	OpenCL platform: NVIDIA CUDA
+07:50:30:532	d8c	OpenCL platform: Intel(R) OpenCL
+07:50:30:532	d8c	AMD OpenCL platform not found 
+07:50:31:751	d8c	CUDA initializing...
+
+07:50:31:751	d8c	NVIDIA Cards available: 8 
+07:50:31:751	d8c	CUDA Driver Version/Runtime Version: 8.0/8.0
+07:50:31:767	d8c	GPU #0: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:767	d8c	GPU #1: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:782	d8c	GPU #2: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:798	d8c	GPU #3: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:814	d8c	GPU #4: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:829	d8c	GPU #5: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:829	d8c	GPU #6: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:845	d8c	GPU #7: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:50:31:845	d8c	Total cards: 8 
+07:50:40:018	d8c	No AMD cards in the list, ADL library will not be used.
+07:50:40:018	d8c	NVML version: 8.382.53
+07:50:42:549	380	ETH: Stratum - connecting to 'eth.f2pool.com' <106.15.156.21> port 8008
+07:50:42:580	380	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+07:50:42:580	380	ETH: Stratum - Connected (eth.f2pool.com:8008)
+07:50:42:627	380	got 52 bytes
+07:50:42:627	380	buf: {"jsonrpc":"2.0","id":2,"result":true,"error":null}
+
+07:50:42:627	380	parse packet: 51
+07:50:42:627	380	ETH: Authorized
+07:50:42:627	380	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+07:50:42:627	380	new buf size: 0
+07:50:42:643	d8c	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+07:50:42:643	d8c	ETH: eth-proxy stratum mode
+07:50:42:643	d8c	Watchdog enabled
+07:50:42:643	d8c	Remote management (READ-ONLY MODE) is enabled on port 3333
+07:50:42:643	d8c	
+07:50:42:659	380	got 256 bytes
+07:50:42:659	380	buf: {"jsonrpc":"2.0","id":3,"result":["0x66a818355460ec129e970fc19737e97131dd94aae5053f2d503b3ae7b494926d","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:42:659	380	parse packet: 255
+07:50:42:659	380	ETH: job changed
+07:50:42:659	380	new buf size: 0
+07:50:42:674	1650	Setting DAG epoch #134...
+07:50:45:268	380	got 256 bytes
+07:50:45:268	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x59e83fa5bf886750c46703630265b835a2693b32fb16c465b96a69c4efc5317a","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:45:268	380	parse packet: 255
+07:50:45:268	380	ETH: job changed
+07:50:45:268	380	new buf size: 0
+07:50:45:268	380	ETH: 07/15/17-07:50:45 - New job from eth.f2pool.com:8008
+07:50:45:268	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:50:45:268	380	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:50:45:268	380	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+07:50:45:378	380	got 256 bytes
+07:50:45:378	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x56975ed6936cdd7a95ecb5c7546e5ca9a214ccccb4d3186173a26ba8f051c67c","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:45:378	380	parse packet: 255
+07:50:45:378	380	ETH: job changed
+07:50:45:378	380	new buf size: 0
+07:50:45:378	380	ETH: 07/15/17-07:50:45 - New job from eth.f2pool.com:8008
+07:50:45:378	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:50:45:378	380	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:50:45:378	380	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+07:50:47:409	1f2c	Setting DAG epoch #134 for GPU6
+07:50:47:409	dd0	Setting DAG epoch #134 for GPU0
+07:50:46:971	1650	Setting DAG epoch #134 for GPU7
+07:50:47:409	1574	Setting DAG epoch #134 for GPU3
+07:50:47:425	1f2c	Create GPU buffer for GPU6
+07:50:47:409	48c	Setting DAG epoch #134 for GPU1
+07:50:47:425	1574	Create GPU buffer for GPU3
+07:50:47:409	1e78	Setting DAG epoch #134 for GPU4
+07:50:47:440	1244	Setting DAG epoch #134 for GPU5
+07:50:47:456	1650	Create GPU buffer for GPU7
+07:50:47:472	19ec	Setting DAG epoch #134 for GPU2
+07:50:47:472	48c	Create GPU buffer for GPU1
+07:50:47:456	dd0	Create GPU buffer for GPU0
+07:50:47:472	1e78	Create GPU buffer for GPU4
+07:50:47:472	1244	Create GPU buffer for GPU5
+07:50:47:487	19ec	Create GPU buffer for GPU2
+07:50:52:675	380	ETH: checking pool connection...
+07:50:52:675	380	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+07:50:52:722	380	got 256 bytes
+07:50:52:722	380	buf: {"jsonrpc":"2.0","id":3,"result":["0x56975ed6936cdd7a95ecb5c7546e5ca9a214ccccb4d3186173a26ba8f051c67c","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:52:722	380	parse packet: 255
+07:50:52:722	380	ETH: job is the same
+07:50:52:722	380	new buf size: 0
+07:50:53:457	380	got 256 bytes
+07:50:53:457	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x88ab54b59f9c15789be7b42e18943b7a1fd111448b5fd86dbb938bdcc802dcd6","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:53:457	380	parse packet: 255
+07:50:53:457	380	ETH: job changed
+07:50:53:472	380	new buf size: 0
+07:50:53:472	380	ETH: 07/15/17-07:50:53 - New job from eth.f2pool.com:8008
+07:50:53:472	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:50:53:472	380	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:50:53:472	380	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+07:50:53:613	380	got 256 bytes
+07:50:53:613	380	buf: {"jsonrpc":"2.0","id":0,"result":["0xc572e908328bd6d390cbd768153f11ea8e0c8d7e50143a60ab150ad213779781","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:53:613	380	parse packet: 255
+07:50:53:613	380	ETH: job changed
+07:50:53:613	380	new buf size: 0
+07:50:53:613	380	ETH: 07/15/17-07:50:53 - New job from eth.f2pool.com:8008
+07:50:53:613	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:50:53:613	380	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:50:53:613	380	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+07:50:55:894	380	got 256 bytes
+07:50:55:894	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x502458ce48198c896006acea089a7148d6a5ec76d8ccb80c7ee5d651bc78b720","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:50:55:894	380	parse packet: 255
+07:50:55:894	380	ETH: job changed
+07:50:55:894	380	new buf size: 0
+07:50:55:894	380	ETH: 07/15/17-07:50:55 - New job from eth.f2pool.com:8008
+07:50:55:894	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:50:55:894	380	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:50:55:910	380	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+07:50:56:316	1f2c	GPU6 DAG creation time - 8265 ms
+07:50:56:316	1f2c	Setting DAG epoch #134 for GPU6 done
+07:50:56:332	dd0	GPU0 DAG creation time - 8291 ms
+07:50:56:332	dd0	Setting DAG epoch #134 for GPU0 done
+07:50:56:347	1e78	GPU4 DAG creation time - 8295 ms
+07:50:56:347	1e78	Setting DAG epoch #134 for GPU4 done
+07:50:56:363	48c	GPU1 DAG creation time - 8263 ms
+07:50:56:363	48c	Setting DAG epoch #134 for GPU1 done
+07:50:56:613	19ec	GPU2 DAG creation time - 8254 ms
+07:50:56:629	19ec	Setting DAG epoch #134 for GPU2 done
+07:50:56:691	1574	GPU3 DAG creation time - 8299 ms
+07:50:56:691	1574	Setting DAG epoch #134 for GPU3 done
+07:50:56:707	1650	GPU7 DAG creation time - 8277 ms
+07:50:56:707	1650	Setting DAG epoch #134 for GPU7 done
+07:50:56:754	1244	GPU5 DAG creation time - 8281 ms
+07:50:56:754	1244	Setting DAG epoch #134 for GPU5 done
+07:51:01:192	380	got 256 bytes
+07:51:01:192	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x9b34e5f8229757fea9cf9a20af70f56778738a3b4c5dda836c75d964309f5499","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:01:192	380	parse packet: 255
+07:51:01:192	380	ETH: job changed
+07:51:01:192	380	new buf size: 0
+07:51:01:192	380	ETH: 07/15/17-07:51:01 - New job from eth.f2pool.com:8008
+07:51:01:192	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:51:01:207	380	ETH - Total Speed: 157.850 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:51:01:504	380	ETH: GPU0 19.933 Mh/s, GPU1 19.040 Mh/s, GPU2 19.947 Mh/s, GPU3 19.885 Mh/s, GPU4 19.931 Mh/s, GPU5 19.897 Mh/s, GPU6 19.658 Mh/s, GPU7 19.560 Mh/s
+07:51:01:504	380	got 256 bytes
+07:51:01:504	380	buf: {"jsonrpc":"2.0","id":0,"result":["0xc3d2896b6c2350f7747adade14403f646e9a3bc3a69ce94554ea1dc854eaf5dc","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:01:504	380	parse packet: 255
+07:51:01:504	380	ETH: job changed
+07:51:01:504	380	new buf size: 0
+07:51:01:504	380	ETH: 07/15/17-07:51:01 - New job from eth.f2pool.com:8008
+07:51:01:520	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:51:01:520	380	ETH - Total Speed: 157.685 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:51:01:520	380	ETH: GPU0 20.039 Mh/s, GPU1 19.338 Mh/s, GPU2 18.968 Mh/s, GPU3 19.991 Mh/s, GPU4 19.972 Mh/s, GPU5 19.513 Mh/s, GPU6 20.020 Mh/s, GPU7 19.844 Mh/s
+07:51:02:676	380	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x98cbcaf", "0x00000000000000000000000000000000000000000000000000000000db5c3d5a"]}
+
+07:51:02:692	380	ETH: checking pool connection...
+07:51:02:692	380	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+07:51:02:770	380	got 256 bytes
+07:51:02:770	380	buf: {"jsonrpc":"2.0","id":3,"result":["0xc3d2896b6c2350f7747adade14403f646e9a3bc3a69ce94554ea1dc854eaf5dc","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:02:770	380	parse packet: 255
+07:51:02:770	380	ETH: job is the same
+07:51:02:770	380	new buf size: 0
+07:51:09:568	380	got 256 bytes
+07:51:09:568	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x84615d87962963d2faea5a994bebfb9ff96d2dbcd7e5ec0c564f21a4af47f3aa","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:09:568	380	parse packet: 255
+07:51:09:568	380	ETH: job changed
+07:51:09:568	380	new buf size: 0
+07:51:09:568	380	ETH: 07/15/17-07:51:09 - New job from eth.f2pool.com:8008
+07:51:09:568	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:51:09:568	380	ETH - Total Speed: 157.302 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:51:09:568	380	ETH: GPU0 19.671 Mh/s, GPU1 18.909 Mh/s, GPU2 19.885 Mh/s, GPU3 19.496 Mh/s, GPU4 19.881 Mh/s, GPU5 19.632 Mh/s, GPU6 19.957 Mh/s, GPU7 19.871 Mh/s
+07:51:12:224	380	got 256 bytes
+07:51:12:224	380	buf: {"jsonrpc":"2.0","id":0,"result":["0x2ddc87a180ff2a62597808215ad9fea7f00b51d53df997551ca517102e2d13d3","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:12:224	380	parse packet: 255
+07:51:12:224	380	ETH: job changed
+07:51:12:224	380	new buf size: 0
+07:51:12:224	380	ETH: 07/15/17-07:51:12 - New job from eth.f2pool.com:8008
+07:51:12:224	380	target: 0x00000000ffffffff (diff: 4294MH), epoch #134
+07:51:12:224	380	ETH - Total Speed: 156.373 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+07:51:12:224	380	ETH: GPU0 19.864 Mh/s, GPU1 19.926 Mh/s, GPU2 19.819 Mh/s, GPU3 19.908 Mh/s, GPU4 19.890 Mh/s, GPU5 19.031 Mh/s, GPU6 17.980 Mh/s, GPU7 19.956 Mh/s
+07:51:12:709	380	ETH: checking pool connection...
+07:51:12:709	380	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+07:51:12:755	380	got 256 bytes
+07:51:12:755	380	buf: {"jsonrpc":"2.0","id":3,"result":["0x2ddc87a180ff2a62597808215ad9fea7f00b51d53df997551ca517102e2d13d3","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff"],"error":null}
+
+07:51:12:755	380	parse packet: 255
+07:51:12:755	380	ETH: job is the same
+07:51:12:755	380	new buf size: 0

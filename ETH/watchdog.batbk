@@ -1,0 +1,2 @@
+tasklist /nh | find /i "ethminer"
+if ERRORLEVEL 1 (echo "ethminer Down %time%" >> "%~dp0error.log" \Restart_%date:~0,4%%date:~5,2%%date:~8,2%.log & start %~dp0ethstart.bat ) 

@@ -1,0 +1,8 @@
+08:27:14:626	1698	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+08:27:17:642	1698	
+08:27:17:642	1698	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+08:27:17:642	1698	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+08:27:17:642	1698	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+08:27:17:642	1698	
+08:27:17:861	1698	ETH: 5 pools are specified
+08:27:17:861	1698	Main Ethereum pool is eth-eu.dwarfpool.com:8008

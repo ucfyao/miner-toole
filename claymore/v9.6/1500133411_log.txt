@@ -1,0 +1,42 @@
+08:43:31:199	1d5c	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+08:43:31:199	1d5c	
+08:43:31:199	1d5c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+08:43:31:199	1d5c	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.7      บ
+08:43:31:199	1d5c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+08:43:31:199	1d5c	
+08:43:31:418	1d5c	ETH: 5 pools are specified
+08:43:31:418	1d5c	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+08:43:32:043	1d5c	OpenCL platform: NVIDIA CUDA
+08:43:32:043	1d5c	OpenCL platform: Intel(R) OpenCL
+08:43:32:043	1d5c	AMD OpenCL platform not found 
+08:43:33:184	1d5c	CUDA initializing...
+
+08:43:33:184	1d5c	NVIDIA Cards available: 8 
+08:43:33:184	1d5c	CUDA Driver Version/Runtime Version: 8.0/8.0
+08:43:33:199	1d5c	GPU #0: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:215	1d5c	GPU #1: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:215	1d5c	GPU #2: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:230	1d5c	GPU #3: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:246	1d5c	GPU #4: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:246	1d5c	GPU #5: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:262	1d5c	GPU #6: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:277	1d5c	GPU #7: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:43:33:277	1d5c	Total cards: 8 
+08:43:36:543	1d5c	No AMD cards in the list, ADL library will not be used.
+08:43:36:543	1d5c	NVML version: 8.382.53
+08:43:38:668	14e8	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+08:43:38:762	1d5c	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+08:43:38:762	1d5c	ETH: eth-proxy stratum mode
+08:43:38:762	1d5c	Watchdog enabled
+08:43:38:762	1d5c	Remote management (READ-ONLY MODE) is enabled on port 3333
+08:43:38:762	1d5c	
+08:43:39:684	14e8	ETH: Stratum - Cannot connect to eth-eu.dwarfpool.com:8008
+08:43:39:684	14e8	ETH: Stratum - Failed to connect, retry in 20 sec...

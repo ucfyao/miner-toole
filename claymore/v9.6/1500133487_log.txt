@@ -1,0 +1,260 @@
+08:44:47:770	6e0	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+08:44:47:770	6e0	
+08:44:47:770	6e0	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+08:44:47:770	6e0	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.7      บ
+08:44:47:770	6e0	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+08:44:47:770	6e0	
+08:44:47:988	6e0	ETH: 5 pools are specified
+08:44:47:988	6e0	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+08:44:48:598	6e0	OpenCL platform: NVIDIA CUDA
+08:44:48:598	6e0	OpenCL platform: Intel(R) OpenCL
+08:44:48:598	6e0	AMD OpenCL platform not found 
+08:44:49:817	6e0	CUDA initializing...
+
+08:44:49:817	6e0	NVIDIA Cards available: 8 
+08:44:49:817	6e0	CUDA Driver Version/Runtime Version: 8.0/8.0
+08:44:49:832	6e0	GPU #0: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:848	6e0	GPU #1: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:864	6e0	GPU #2: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:864	6e0	GPU #3: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:879	6e0	GPU #4: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:895	6e0	GPU #5: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:895	6e0	GPU #6: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:910	6e0	GPU #7: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+08:44:49:910	6e0	Total cards: 8 
+08:44:53:176	6e0	No AMD cards in the list, ADL library will not be used.
+08:44:53:208	6e0	NVML version: 8.382.53
+08:44:55:302	1edc	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+08:44:55:302	1edc	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+08:44:55:302	1edc	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+08:44:55:395	6e0	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+08:44:55:395	6e0	ETH: eth-proxy stratum mode
+08:44:55:395	6e0	Watchdog enabled
+08:44:55:395	6e0	Remote management (READ-ONLY MODE) is enabled on port 3333
+08:44:55:411	6e0	
+08:44:56:083	1edc	got 282 bytes
+08:44:56:083	1edc	buf: {"jsonrpc":"2.0","id":2,"result":true}
+{"jsonrpc":"2.0","id":0,"result":["0x1a8526d7bdfd3a42980d5f9a6980db51b0c07c8484fac54eedc95609cc69a874","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:44:56:083	1edc	parse packet: 38
+08:44:56:083	1edc	ETH: Authorized
+08:44:56:083	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:44:56:083	1edc	remove first packet 243
+08:44:56:083	1edc	new buf size: 243
+08:44:56:083	1edc	parse packet: 242
+08:44:56:083	1edc	ETH: job changed
+08:44:56:083	1edc	new buf size: 0
+08:44:56:192	f0c	Setting DAG epoch #134...
+08:44:57:036	1edc	got 243 bytes
+08:44:57:036	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x1a8526d7bdfd3a42980d5f9a6980db51b0c07c8484fac54eedc95609cc69a874","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:44:57:036	1edc	parse packet: 242
+08:44:57:036	1edc	ETH: job is the same
+08:44:57:036	1edc	new buf size: 0
+08:45:00:349	1edc	got 243 bytes
+08:45:00:349	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x3f46f39c5f924352199f7fc21798ed1460deee1fe4c8cf5c51525f59877a2489","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:00:349	1edc	parse packet: 242
+08:45:00:349	1edc	ETH: job changed
+08:45:00:349	1edc	new buf size: 0
+08:45:00:349	1edc	ETH: 07/15/17-08:45:00 - New job from eth-eu.dwarfpool.com:8008
+08:45:00:349	1edc	target: 0x00000000dbe6fece (diff: 5000MH), epoch 134(2.05GB)
+08:45:00:349	1edc	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+08:45:00:349	1edc	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s
+08:45:00:552	ec0	Setting DAG epoch #134 for GPU1
+08:45:00:568	ec0	Create GPU buffer for GPU1
+08:45:00:568	1e24	Setting DAG epoch #134 for GPU2
+08:45:00:552	f0c	Setting DAG epoch #134 for GPU6
+08:45:00:568	16d8	Setting DAG epoch #134 for GPU5
+08:45:00:568	1918	Setting DAG epoch #134 for GPU7
+08:45:00:583	1918	Create GPU buffer for GPU7
+08:45:00:583	14fc	Setting DAG epoch #134 for GPU4
+08:45:00:568	904	Setting DAG epoch #134 for GPU3
+08:45:00:583	904	Create GPU buffer for GPU3
+08:45:00:568	105c	Setting DAG epoch #134 for GPU0
+08:45:00:568	1e24	Create GPU buffer for GPU2
+08:45:00:583	105c	Create GPU buffer for GPU0
+08:45:00:583	14fc	Create GPU buffer for GPU4
+08:45:00:568	f0c	Create GPU buffer for GPU6
+08:45:00:583	16d8	Create GPU buffer for GPU5
+08:45:06:100	1edc	ETH: checking pool connection...
+08:45:06:100	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:06:600	1edc	got 243 bytes
+08:45:06:600	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x3f46f39c5f924352199f7fc21798ed1460deee1fe4c8cf5c51525f59877a2489","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:06:600	1edc	parse packet: 242
+08:45:06:600	1edc	ETH: job is the same
+08:45:06:600	1edc	new buf size: 0
+08:45:09:459	105c	GPU0 DAG creation time - 8365 ms
+08:45:09:491	105c	Setting DAG epoch #134 for GPU0 done
+08:45:09:553	ec0	GPU1 DAG creation time - 8314 ms
+08:45:09:553	ec0	Setting DAG epoch #134 for GPU1 done
+08:45:09:553	904	GPU3 DAG creation time - 8376 ms
+08:45:09:553	904	Setting DAG epoch #134 for GPU3 done
+08:45:09:663	1e24	GPU2 DAG creation time - 8301 ms
+08:45:09:663	1e24	Setting DAG epoch #134 for GPU2 done
+08:45:09:788	1918	GPU7 DAG creation time - 8318 ms
+08:45:09:788	1918	Setting DAG epoch #134 for GPU7 done
+08:45:09:819	f0c	GPU6 DAG creation time - 8344 ms
+08:45:09:819	14fc	GPU4 DAG creation time - 8340 ms
+08:45:09:819	f0c	Setting DAG epoch #134 for GPU6 done
+08:45:09:834	14fc	Setting DAG epoch #134 for GPU4 done
+08:45:09:866	16d8	GPU5 DAG creation time - 8358 ms
+08:45:09:866	16d8	Setting DAG epoch #134 for GPU5 done
+08:45:16:101	1edc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9ec2bb9", "0x00000000000000000000000000000000000000000000000000000000b1190e87"]}
+
+08:45:16:116	1edc	ETH: checking pool connection...
+08:45:16:116	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:17:366	1edc	got 243 bytes
+08:45:17:366	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x3f46f39c5f924352199f7fc21798ed1460deee1fe4c8cf5c51525f59877a2489","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:17:366	1edc	parse packet: 242
+08:45:17:366	1edc	ETH: job is the same
+08:45:17:366	1edc	new buf size: 0
+08:45:20:898	1a7c	GPU0 t=48C fan=47%, GPU1 t=48C fan=47%, GPU2 t=47C fan=46%, GPU3 t=46C fan=46%, GPU4 t=46C fan=46%, GPU5 t=49C fan=47%, GPU6 t=43C fan=44%, GPU7 t=48C fan=47%
+08:45:20:914	1a7c	em hbt: 0, fm hbt: 47, 
+08:45:20:914	1a7c	watchdog - thread 0 (gpu0), hb time 157
+08:45:20:914	1a7c	watchdog - thread 1 (gpu0), hb time 32
+08:45:20:914	1a7c	watchdog - thread 2 (gpu1), hb time 125
+08:45:20:914	1a7c	watchdog - thread 3 (gpu1), hb time 250
+08:45:20:914	1a7c	watchdog - thread 4 (gpu2), hb time 141
+08:45:20:914	1a7c	watchdog - thread 5 (gpu2), hb time 16
+08:45:20:914	1a7c	watchdog - thread 6 (gpu3), hb time 250
+08:45:20:914	1a7c	watchdog - thread 7 (gpu3), hb time 125
+08:45:20:914	1a7c	watchdog - thread 8 (gpu4), hb time 219
+08:45:20:914	1a7c	watchdog - thread 9 (gpu4), hb time 94
+08:45:20:914	1a7c	watchdog - thread 10 (gpu5), hb time 32
+08:45:20:914	1a7c	watchdog - thread 11 (gpu5), hb time 157
+08:45:20:914	1a7c	watchdog - thread 12 (gpu6), hb time 219
+08:45:20:914	1a7c	watchdog - thread 13 (gpu6), hb time 94
+08:45:20:914	1a7c	watchdog - thread 14 (gpu7), hb time 141
+08:45:20:914	1a7c	watchdog - thread 15 (gpu7), hb time 16
+08:45:26:133	1edc	ETH: checking pool connection...
+08:45:26:133	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:27:024	1edc	got 243 bytes
+08:45:27:024	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x3f46f39c5f924352199f7fc21798ed1460deee1fe4c8cf5c51525f59877a2489","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:27:024	1edc	parse packet: 242
+08:45:27:024	1edc	ETH: job is the same
+08:45:27:024	1edc	new buf size: 0
+08:45:29:071	19a4	ETH: put share nonce 7dbd17c0ae810df
+08:45:29:071	19a4	ETH round found 1 shares
+08:45:29:086	1edc	ETH: 07/15/17-08:45:29 - SHARE FOUND - (GPU 3)
+08:45:29:086	1edc	Miner detected that you use local pool or local stratum proxy.
+08:45:29:086	1edc	This mode is not currently supported and will cause more stale shares.
+08:45:29:086	1edc	send: {"id":4,"method":"eth_submitWork","params":["0x07dbd17c0ae810df","0x3f46f39c5f924352199f7fc21798ed1460deee1fe4c8cf5c51525f59877a2489","0x81b89151ea1bd0e29b5b99107f1efa7ae179f14a756fe2da033991e4bed67703"]}
+
+08:45:29:462	1edc	got 39 bytes
+08:45:29:462	1edc	buf: {"jsonrpc":"2.0","id":4,"result":true}
+
+08:45:29:462	1edc	parse packet: 38
+08:45:29:462	1edc	ETH: Share accepted (375 ms)!
+08:45:29:462	1edc	new buf size: 0
+08:45:29:993	1edc	got 243 bytes
+08:45:29:993	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x6ec99b81f63edbeae6a3e69375d5b95e26fd444e457fe3c71ed8502d6262f9f8","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:29:993	1edc	parse packet: 242
+08:45:29:993	1edc	ETH: job changed
+08:45:29:993	1edc	new buf size: 0
+08:45:29:993	1edc	ETH: 07/15/17-08:45:29 - New job from eth-eu.dwarfpool.com:8008
+08:45:29:993	1edc	target: 0x00000000dbe6fece (diff: 5000MH), epoch 134(2.05GB)
+08:45:29:993	1edc	ETH - Total Speed: 166.281 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:00
+08:45:29:993	1edc	ETH: GPU0 20.816 Mh/s, GPU1 20.777 Mh/s, GPU2 20.818 Mh/s, GPU3 20.835 Mh/s, GPU4 20.785 Mh/s, GPU5 20.815 Mh/s, GPU6 20.805 Mh/s, GPU7 20.630 Mh/s
+08:45:36:118	1edc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9e66e6e", "0x00000000000000000000000000000000000000000000000000000000b1190e87"]}
+
+08:45:36:150	1edc	ETH: checking pool connection...
+08:45:36:150	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:36:884	1edc	got 243 bytes
+08:45:36:884	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x6ec99b81f63edbeae6a3e69375d5b95e26fd444e457fe3c71ed8502d6262f9f8","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:36:884	1edc	parse packet: 242
+08:45:36:884	1edc	ETH: job is the same
+08:45:36:884	1edc	new buf size: 0
+08:45:37:572	1090	ETH: put share nonce 34d233c003aec78f
+08:45:37:572	1090	ETH round found 1 shares
+08:45:37:587	1edc	ETH: 07/15/17-08:45:37 - SHARE FOUND - (GPU 7)
+08:45:37:587	1edc	Miner detected that you use local pool or local stratum proxy.
+08:45:37:587	1edc	This mode is not currently supported and will cause more stale shares.
+08:45:37:587	1edc	send: {"id":4,"method":"eth_submitWork","params":["0x34d233c003aec78f","0x6ec99b81f63edbeae6a3e69375d5b95e26fd444e457fe3c71ed8502d6262f9f8","0xe8d81a2f39c16d79dfb1e18aa2201d382244af0b0b25151f3ec8c61a1919382e"]}
+
+08:45:38:091	1edc	got 39 bytes
+08:45:38:092	1edc	buf: {"jsonrpc":"2.0","id":4,"result":true}
+
+08:45:38:093	1edc	parse packet: 38
+08:45:38:095	1edc	ETH: Share accepted (516 ms)!
+08:45:38:133	1edc	new buf size: 0
+08:45:40:714	1edc	got 243 bytes
+08:45:40:715	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x6ab6c233d4ae1c29e2e86361e1d7e270d9f67baf24c0e91db14816cbe2c7d709","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:40:716	1edc	parse packet: 242
+08:45:40:718	1edc	ETH: job changed
+08:45:40:719	1edc	new buf size: 0
+08:45:40:723	1edc	ETH: 07/15/17-08:45:40 - New job from eth-eu.dwarfpool.com:8008
+08:45:40:724	1edc	target: 0x00000000dbe6fece (diff: 5000MH), epoch 134(2.05GB)
+08:45:40:736	1edc	ETH - Total Speed: 166.398 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:00
+08:45:41:004	1edc	ETH: GPU0 20.794 Mh/s, GPU1 20.853 Mh/s, GPU2 20.876 Mh/s, GPU3 20.510 Mh/s, GPU4 20.845 Mh/s, GPU5 20.844 Mh/s, GPU6 20.814 Mh/s, GPU7 20.862 Mh/s
+08:45:46:166	1edc	ETH: checking pool connection...
+08:45:46:166	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:47:228	1edc	got 243 bytes
+08:45:47:228	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x6ab6c233d4ae1c29e2e86361e1d7e270d9f67baf24c0e91db14816cbe2c7d709","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:47:228	1edc	parse packet: 242
+08:45:47:228	1edc	ETH: job is the same
+08:45:47:228	1edc	new buf size: 0
+08:45:49:353	16c4	ETH: put share nonce 9435381c0455eae6
+08:45:49:353	16c4	ETH round found 1 shares
+08:45:49:369	1edc	ETH: 07/15/17-08:45:49 - SHARE FOUND - (GPU 2)
+08:45:49:369	1edc	Miner detected that you use local pool or local stratum proxy.
+08:45:49:369	1edc	This mode is not currently supported and will cause more stale shares.
+08:45:49:369	1edc	send: {"id":4,"method":"eth_submitWork","params":["0x9435381c0455eae6","0x6ab6c233d4ae1c29e2e86361e1d7e270d9f67baf24c0e91db14816cbe2c7d709","0x383ad6525a944e75f1f786887790bb3abe432f664f9b1a8383b393d1d534d77f"]}
+
+08:45:49:900	1edc	got 39 bytes
+08:45:49:900	1edc	buf: {"jsonrpc":"2.0","id":4,"result":true}
+
+08:45:49:900	1edc	parse packet: 38
+08:45:49:900	1edc	ETH: Share accepted (531 ms)!
+08:45:49:932	1edc	new buf size: 0
+08:45:53:432	1a7c	GPU0 t=55C fan=51%, GPU1 t=55C fan=51%, GPU2 t=55C fan=51%, GPU3 t=53C fan=50%, GPU4 t=53C fan=50%, GPU5 t=56C fan=51%, GPU6 t=50C fan=48%, GPU7 t=55C fan=51%
+08:45:53:448	1a7c	em hbt: 16, fm hbt: 110, 
+08:45:53:448	1a7c	watchdog - thread 0 (gpu0), hb time 31
+08:45:53:448	1a7c	watchdog - thread 1 (gpu0), hb time 156
+08:45:53:448	1a7c	watchdog - thread 2 (gpu1), hb time 156
+08:45:53:448	1a7c	watchdog - thread 3 (gpu1), hb time 31
+08:45:53:448	1a7c	watchdog - thread 4 (gpu2), hb time 156
+08:45:53:448	1a7c	watchdog - thread 5 (gpu2), hb time 31
+08:45:53:448	1a7c	watchdog - thread 6 (gpu3), hb time 94
+08:45:53:448	1a7c	watchdog - thread 7 (gpu3), hb time 219
+08:45:53:448	1a7c	watchdog - thread 8 (gpu4), hb time 94
+08:45:53:448	1a7c	watchdog - thread 9 (gpu4), hb time 219
+08:45:53:448	1a7c	watchdog - thread 10 (gpu5), hb time 156
+08:45:53:448	1a7c	watchdog - thread 11 (gpu5), hb time 31
+08:45:53:448	1a7c	watchdog - thread 12 (gpu6), hb time 94
+08:45:53:448	1a7c	watchdog - thread 13 (gpu6), hb time 219
+08:45:53:448	1a7c	watchdog - thread 14 (gpu7), hb time 31
+08:45:53:448	1a7c	watchdog - thread 15 (gpu7), hb time 156
+08:45:56:135	1edc	send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9ebb56c", "0x00000000000000000000000000000000000000000000000000000000b1190e87"]}
+
+08:45:56:182	1edc	ETH: checking pool connection...
+08:45:56:182	1edc	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+08:45:56:917	1edc	got 243 bytes
+08:45:56:917	1edc	buf: {"jsonrpc":"2.0","id":0,"result":["0x6ab6c233d4ae1c29e2e86361e1d7e270d9f67baf24c0e91db14816cbe2c7d709","0x68fc811a18084465eab2e58f91e5dff9010c0bf8dbbf1dc799e61e23ab9cc904","0x00000000dbe6fecebdedd5beb573440e5a884d1b2fbf06fcce912adcb8d8422e"]}
+
+08:45:56:917	1edc	parse packet: 242
+08:45:56:917	1edc	ETH: job is the same
+08:45:56:917	1edc	new buf size: 0

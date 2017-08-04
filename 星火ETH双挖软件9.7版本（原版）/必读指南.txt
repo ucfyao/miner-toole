@@ -1,0 +1,14 @@
+双挖软件官方下载地址：https://drive.google.com/drive/folders/0B69wv2iqszefdFZUV2toUG5HdlU，需要翻墙。
+
+1、如果你选择单挖以太币，首先右键“编辑”单挖ETH文件，将里面的以太币地址改成你的以太币地址。将A1换成你自己的矿机编号。默认将华北1服务器作为主矿池服务器，你可以将huabei-pool.ethfans.org改成华北2服务器，即huabei2-pool.ethfans.org,也可以改成广东服务器，即pool.ethfans.org。保存。双击“单挖ETH”开始挖矿。
+
+2、如果你选双挖eth和sc，首先右键“编辑”双挖eth+sc文件，将里面的以太币地址换成你的以太币地址，将SC地址换成你的SC地址。将A1改成你自己的矿机编号。默认将华北1服务器作为主矿池服务器，你可以将huabei-pool.ethfans.org改成华北2服务器，即huabei2-pool.ethfans.org,也可以改成广东服务器，即pool.ethfans.org。保存。双击“双挖eth+sc”开始挖矿。
+
+
+3、在epool文件设置备用服务器，默认的备用服务器是广东服务器pool.ethfans.org、华北2服务器huabei2-pool.ethfans.org和dwarfpool服务器 eth-eu.dwarfpool.com。如果你修改默认的主矿池服务器，请在epool文件中做相应修改。例如，你将广东服务器pool.ethfans.org设为主服务器，在epool中把pool.ethfans.org改为huabei-pool.ethfans.org。将epool中的以太币地址改成你自己的以太币地址。一定要设置备用服务器，一定不要忘记修改epool中的以太币地址。
+
+4、如果你的宽带服务商屏蔽了3333端口，请使用13333端口。
+
+本地挖矿软件连接到矿池，正常挖矿以后，过一段时间（10分钟左右）在星火矿池主页http://pool.ethfans.org/右上角搜素输入你的钱包地址，搜索即可进入你的页面，查询算力等信息。当前算力需要1-2小时才能显示真是算力，24小时平均算力需要24小时显示真实算力。算力显示有延迟，但是算力提交和收益计算都是即时的。
+
+欢迎加入星火矿池QQ群：461032879

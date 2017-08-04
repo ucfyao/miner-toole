@@ -1,0 +1,72 @@
+07:49:01:601	5c8	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0x005030e942b9f4DC69997d683C97EA577bB74d30 -epsw x -mode 1 -ftime 10 
+07:49:01:601	5c8	
+07:49:01:601	5c8	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+07:49:01:601	5c8	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.5      บ
+07:49:01:601	5c8	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+07:49:01:601	5c8	
+07:49:01:820	5c8	ETH: 5 pools are specified
+07:49:01:820	5c8	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+07:49:02:429	5c8	OpenCL platform: NVIDIA CUDA
+07:49:02:429	5c8	OpenCL platform: Intel(R) OpenCL
+07:49:02:429	5c8	AMD OpenCL platform not found 
+07:49:03:695	5c8	CUDA initializing...
+
+07:49:03:695	5c8	NVIDIA Cards available: 8 
+07:49:03:710	5c8	CUDA Driver Version/Runtime Version: 8.0/8.0
+07:49:03:742	5c8	GPU #0: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:757	5c8	GPU #1: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:757	5c8	GPU #2: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:773	5c8	GPU #3: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:789	5c8	GPU #4: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:789	5c8	GPU #5: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:804	5c8	GPU #6: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:820	5c8	GPU #7: P106-100, 6144 MB available, 10 compute units, capability: 6.1
+
+07:49:03:820	5c8	Total cards: 8 
+07:49:11:993	5c8	No AMD cards in the list, ADL library will not be used.
+07:49:11:993	5c8	NVML version: 8.382.53
+07:49:14:149	1830	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <127.0.0.1> port 8008
+07:49:14:149	1830	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0x005030e942b9f4DC69997d683C97EA577bB74d30", "x"], "id": 2, "method": "eth_submitLogin"}
+
+07:49:14:149	1830	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+07:49:14:243	5c8	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+07:49:14:243	5c8	ETH: eth-proxy stratum mode
+07:49:14:243	5c8	Watchdog enabled
+07:49:14:243	5c8	Remote management (READ-ONLY MODE) is enabled on port 3333
+07:49:14:243	5c8	
+07:49:18:868	1830	checkread timeout
+07:49:23:572	1830	checkread timeout
+07:49:28:291	1830	checkread timeout
+07:49:33:010	1830	checkread timeout
+07:49:37:714	1830	checkread timeout
+07:49:42:449	1830	checkread timeout
+07:49:47:090	5c8	GPU0 t=32C fan=40%, GPU1 t=31C fan=39%, GPU2 t=31C fan=39%, GPU3 t=30C fan=39%, GPU4 t=30C fan=38%, GPU5 t=32C fan=40%, GPU6 t=27C fan=38%, GPU7 t=34C fan=39%
+07:49:47:106	5c8	em hbt: 32985, fm hbt: 32, 
+07:49:47:106	5c8	watchdog - thread 0 (gpu0), hb time 78
+07:49:47:106	5c8	watchdog - thread 1 (gpu0), hb time 78
+07:49:47:106	5c8	watchdog - thread 2 (gpu1), hb time 78
+07:49:47:106	5c8	watchdog - thread 3 (gpu1), hb time 78
+07:49:47:106	5c8	watchdog - thread 4 (gpu2), hb time 78
+07:49:47:106	5c8	watchdog - thread 5 (gpu2), hb time 78
+07:49:47:106	5c8	watchdog - thread 6 (gpu3), hb time 78
+07:49:47:106	5c8	watchdog - thread 7 (gpu3), hb time 78
+07:49:47:106	5c8	watchdog - thread 8 (gpu4), hb time 78
+07:49:47:106	5c8	watchdog - thread 9 (gpu4), hb time 78
+07:49:47:106	5c8	watchdog - thread 10 (gpu5), hb time 78
+07:49:47:106	5c8	watchdog - thread 11 (gpu5), hb time 78
+07:49:47:106	5c8	watchdog - thread 12 (gpu6), hb time 78
+07:49:47:106	5c8	watchdog - thread 13 (gpu6), hb time 78
+07:49:47:106	5c8	watchdog - thread 14 (gpu7), hb time 78
+07:49:47:106	5c8	watchdog - thread 15 (gpu7), hb time 78
+07:49:47:168	1830	checkread timeout
+07:49:51:887	1830	checkread timeout
+07:49:56:591	1830	checkread timeout
+07:50:01:326	1830	checkread timeout
+07:50:01:326	1830	ETH: Job timeout, disconnect, retry in 20 sec...
